@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header ul li {
+    @apply px-3;
+}
+
+.bg-primary {
+    background-color: rgb(85 81 227);
+}
