@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
         <header className="flex justify-between px-3 py-3 text-xl bg-primary">
-            <a href="#" className="text-white font-bold text-3xl">CODE-FM</a>
+            <a href="#" className="text-white font-bold text-3xl"><i>CODE-FM</i></a>
             <nav className="hidden md:block">
                 <ul className="flex text-white">
                     <li><a href="#">Home</a></li>
