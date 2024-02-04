@@ -8,7 +8,7 @@ export default function Projects() {
             <div className='flex justify-center mb-10'>
                 <h1 className='text-white text-4xl font border-b-[2px] tracking-wide'> Recent Projects </h1>
             </div>
-            <div className='flex flex-row justify-center gap-5 w-3/4 '>
+            <div className='flex flex-col md:flex-row justify-center gap-5 w-3/4 '>
                 <div className='project-card'>
                     <img src={projectImg1} className='rounded-xl'></img>
                     <div className='project-card-layer hover:opacity-100'>
