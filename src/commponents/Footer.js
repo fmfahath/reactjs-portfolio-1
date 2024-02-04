@@ -2,7 +2,7 @@ import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <section className="flex flex-col  justify-center items-center text-center md:flex-row md:justify-evenly  md:text-left px-10 py-10 bg-secondary text-white">
+        <section id="contact" className="flex flex-col  justify-center items-center text-center md:flex-row md:justify-evenly  md:text-left px-10 py-10 bg-secondary text-white">
             <div>
                 <p className="text-3xl mb-5">Contact</p>
                 <div className="flex flex-col gap-3 md:gap-0">

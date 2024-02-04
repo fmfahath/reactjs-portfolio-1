@@ -19,7 +19,7 @@ header ul li {
 }
 
 .mobile-nav li {
-    @apply w-full h-full border-b-2 text-center;
+    @apply w-full h-full text-center;
 }
 
 .project-card {
@@ -32,4 +32,8 @@ header ul li {
 
 .project-view-btn {
     @apply w-[100px] bg-white text-blue-950 font-bold rounded-full mt-5
+}
+
+html {
+    scroll-behavior: smooth;
 }

@@ -4,7 +4,7 @@ import projectImg3 from '../assets/proj-3.png';
 
 export default function Projects() {
     return (
-        <section className='flex flex-col justify-center items-center px-5 py-10 bg-secondary'>
+        <section id='projects' className='flex flex-col justify-center items-center px-5 py-10 bg-secondary'>
             <div className='flex justify-center mb-10'>
                 <h1 className='text-white text-4xl font border-b-[2px] tracking-wide'> Recent Projects </h1>
             </div>

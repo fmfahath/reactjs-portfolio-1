@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
     return (
-        <section className='flex flex-col md:flex-row justify-center items-center w-full h-screen px-5 bg-secondary text-white font-roboto-font'>
+        <section id='home' className='flex flex-col md:flex-row justify-center items-center w-full h-screen px-5 bg-secondary text-white font-roboto-font'>
             <div className='flex flex-col w-full md:w-1/2 text-center md:text-left'>
                 <h1 className='hidden md:block text-5xl md:text-7xl tracking-wider'>Hi, <br />
                     I am <span className='bg-sky-500'><i>Fahath</i></span>
