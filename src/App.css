@@ -21,3 +21,15 @@ header ul li {
 .mobile-nav li {
     @apply w-full h-full border-b-2 text-center;
 }
+
+.project-card {
+    @apply p-2 bg-white rounded-xl flex-1 relative
+}
+
+.project-card-layer {
+    @apply flex flex-col justify-center items-center text-white absolute top-0 left-0 bottom-0 bg-primary rounded-xl text-center opacity-0 duration-500
+}
+
+.project-view-btn {
+    @apply w-[100px] bg-white text-blue-950 font-bold rounded-full mt-5
+}
