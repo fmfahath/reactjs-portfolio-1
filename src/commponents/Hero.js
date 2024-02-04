@@ -7,17 +7,17 @@ export default function Hero() {
         <section className='flex flex-col md:flex-row justify-center items-center w-full h-screen px-5 bg-secondary text-white font-roboto-font'>
             <div className='flex flex-col w-full md:w-1/2 text-center md:text-left'>
                 <h1 className='hidden md:block text-5xl md:text-7xl tracking-wider'>Hi, <br />
-                    Im Fahath
-                    <p className='text-2xl md:text-3xl tracking-wide'>Im  A  Full-Stack Developer</p>
+                    I am <span className='bg-sky-500'>Fahath</span>
+                    <p className='text-2xl md:text-3xl tracking-wide mt-2'>Im  A  Full-Stack Developer</p>
                 </h1>
                 {/* mobile view */}
-                <h1 className='block md:hidden text-5xl md:text-7xl tracking-wider'>Hi, Im Fahath
+                <h1 className='block md:hidden text-5xl md:text-7xl tracking-wider'>Hi, Im <span className='bg-sky-500'>Fahath</span>
                     <p className='text-2xl md:text-3xl tracking-wide'>Im  A  Full-Stack Developer</p>
                 </h1>
                 <div className='flex flex-row justify-center md:justify-start gap-5 mt-5'>
-                    <a href='#'><FaTwitter size={25} className='hover:text-blue-500' /></a>
-                    <a href='#'><FaFacebook size={25} className='hover:text-blue-500' /></a>
-                    <a href='#'><FaLinkedin size={25} className='hover:text-blue-500' /></a>
+                    <a href='#'><FaTwitter size={25} className='hover:text-sky-500' /></a>
+                    <a href='#'><FaFacebook size={25} className='hover:text-sky-500' /></a>
+                    <a href='#'><FaLinkedin size={25} className='hover:text-sky-500' /></a>
                 </div>
             </div>
             <img src={HeroImg} className='w-1/2 mt-10 md:w-1/3 md:mt-0 '></img>
